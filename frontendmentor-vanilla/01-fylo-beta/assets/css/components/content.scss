@@ -1,0 +1,51 @@
+@import "../base/variables";
+
+
+
+h1 {
+  color: $header-color;
+  font-weight: $heading-font-weight;
+}
+
+.subheader {
+  color: $neutral-color;
+  font-weight: $body-font-weight;
+}
+
+@media screen and (min-width: $mobile) {
+  .content-body,
+  .footer {
+    padding: 1rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .subheader {
+    font-size: 0.8rem;
+    font-weight: $body-font-weight;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .content-body,
+  .footer {
+    padding: 3rem 5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    padding-bottom: 2rem;
+  }
+
+  .subheader {
+    font-size: 1rem;
+    font-weight: $body-font-weight;
+    padding-bottom: 4rem;
+  }
+}

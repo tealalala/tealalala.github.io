@@ -1,0 +1,35 @@
+nav {
+  padding: 3rem 5rem; }
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.nav-link-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+.nav-link-item {
+  color: #FFFFFF;
+  list-style-type: none;
+  padding: 0 0.5rem; }
+
+.logo {
+  width: 8rem; }
+
+@media screen and (min-width: 375px) {
+  nav {
+    padding: 1.5rem 2.5rem; }
+
+  .logo {
+    width: 7rem;
+    color: white; }
+
+  .fab {
+    color: white; } }
+
+/*# sourceMappingURL=navbar.css.map */

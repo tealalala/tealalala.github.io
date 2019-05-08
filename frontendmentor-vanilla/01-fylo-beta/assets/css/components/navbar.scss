@@ -1,0 +1,53 @@
+@import "../base/variables";
+
+nav {
+  padding: 3rem 5rem;
+}
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+// .logo,
+// .nav-links {
+//   display: inline-block;
+// }
+
+.nav-link-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-link-item {
+  color: $default;
+  list-style-type: none;
+  padding: 0 0.5rem;
+}
+
+.logo {
+  width: 8rem;
+}
+
+@media screen and (min-width: $mobile) {
+  nav {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .logo {
+    width: 7rem;
+    color: white;
+  }
+
+  .fab {
+    color: white;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+
+}

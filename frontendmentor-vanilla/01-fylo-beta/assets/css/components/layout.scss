@@ -1,0 +1,37 @@
+@import "../base/variables";
+
+div {
+  transition: 1.0s ease;
+}
+
+.container {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: right;
+  position: relative;
+}
+
+@media screen and (min-width: $mobile) {
+  .item-2 {
+    background-size: 30%;
+    background:
+      no-repeat center/ 60% url("../images/illustration-main.svg"),
+      no-repeat bottom/ 100% url("../images/bg-intro.svg");
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .item-2 {
+    background: no-repeat center / 60% url("../images/illustration-main.svg"), linear-gradient(to bottom right, $gradient-dark, $gradient-light);
+  }
+}
