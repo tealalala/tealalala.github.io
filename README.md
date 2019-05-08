@@ -1,4 +1,4 @@
-# tealalala.github
+# tealalala.github.io
 
 A sandbox for [Tea La](https://teala.xyz/) to practice web development.
 
