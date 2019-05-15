@@ -1,0 +1,71 @@
+#new-quote {
+  text-align: center; }
+
+#text {
+  margin-bottom: 5%;
+  font-size: 2.0em;
+  line-height: 2.0em; }
+
+#author {
+  margin: 2%;
+  font-size: 1.5em; }
+
+#footer {
+  text-align: center; }
+
+#container {
+  position: absolute;
+  margin: 30px;
+  padding: 5%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center; }
+
+#quote-box {
+  position: relative;
+  width: 100%; }
+
+#button-quote {
+  width: 100%;
+  height: 100%; }
+
+#new-quote {
+  position: relative;
+  margin: auto;
+  display: block; }
+
+#footer {
+  /* position: relative; */
+  bottom: 0;
+  width: 100%;
+  display: block;
+  height: 100px; }
+
+html,
+body {
+  font-family: Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #FFFFFF;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+#container {
+  background-color: #aae9e8; }
+
+#new-quote {
+  background-color: pink;
+  font-size: 1.5em; }
+
+#button-quote {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
