@@ -1,0 +1,45 @@
+.keycode-wrapper,
+.decimal-code-wrapper,
+.hexcode-wrapper {
+  margin-bottom: 3rem;
+}
+
+.letter-text,
+.letter {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.keypress-wrapper{}
+    .letter-text {
+      margin-bottom: 2rem;
+    }
+    .letter {
+      font-size: 5rem;
+      font-weight: 700;
+      line-height: 5.5rem;
+    }
+    .keypress-outputs {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+.history-wrapper {}
+    .history-items {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-auto-rows: auto;
+      justify-items: center;
+      padding-top: 1rem;
+      font-size: 1.5rem;
+    }
+        .history-items > span {
+          border: 2px solid pink;
+          background: pink;
+          width: 60px;
+          height: 60px;
+          border-radius: 60px;
+          margin: 1rem;
+          padding: 1.5rem;
+          transition: background 1s linear;
+        }
