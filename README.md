@@ -7,4 +7,4 @@ A sandbox for [Tea La](https://teala.xyz/)'s web development demos.
 
 ## Other Projects
 * [ASCII Key](ascii-key/index.html) - Project focused on vanilla JavaScript DOM manipulation (append, event listeners, manipulate, select, style) and using [Semantic UI](https://semantic-ui.com/)
-* [Random Quote Generator on Organizing](random-quote-generator/index.html) - Project focused on JavaScript DOM manipulation (select, manipulate)
+* [Random Quote Generator](random-quote-generator/index.html) - Project focused on JavaScript DOM manipulation (select, manipulate)
